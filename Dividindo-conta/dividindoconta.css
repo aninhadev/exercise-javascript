@@ -1,0 +1,74 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+background-color:#23A334;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+input{
+    background-color: #fff;
+   margin: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: green;
+    color: #fff;
+}
+
+#innerHTMLtxt{
+    padding: 10px;
+    margin-top: 60px;
+    width: 300px;
+    height: 40px;
+
+
+border-radius: 10px;
+border: 1px solid #23A334;
+   
+
+}
+
+
+
+

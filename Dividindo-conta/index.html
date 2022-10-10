@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,22 @@
 
     <title>Document</title>
 </head>
+
 <body>
 
     <main>
-        <input id="qtdPessoas" name="qtdPessoas" type="number">
-        <input id="conta" type="number">
-        <button class="button-68" onclick="enviar()">Confirmar</button>
+        <div class="card">
+            <h1> Dividindo a conta</h1>
+            <input id="qtdPessoas" name="qtdPessoas" type="number" placeholder="Número de pessoas">
+            
+            <input id="conta" type="number" placeholder="Valor da Conta">
+            <button class="button" onclick="enviar()">Confirmar</button>
+
+            <div id="innerHTMLtxt"></div>
+        </div>
     </main>
-    <div id="innerHTMLtxt"></div>
-   
+    
+
 </body>
 
 <script src="script.js"></script>
