@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,20 @@
     <link rel="stylesheet" href="stylie-contador.css">
     <title>Contador</title>
 </head>
+
 <body>
-    
+    <main>
+        <div class="contador">
+             <div id="content">
+             </div>
+            <div class="btn">
+                <button  class="btn-menos" onclick="remove()">Contador -1</button>
+                <button class="btn-reset" onclick="reset()">Reset</button>
+                <button class="btn-mais" onclick="add()">Contador +1</button>
+            </div>
+        </div>
+    </main>
 </body>
+<script src="script.js"></script>
+
 </html>
