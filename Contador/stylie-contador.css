@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(95, 120, 204);
 }
 
 .contador{
@@ -8,50 +8,64 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 
 #content{
     font-weight: 700;
-  
     text-align: center;
     margin: 10px ;
     padding: 10px;
     width: 250px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    color: #fff;
   
 }
 .btn-menos{
     font-weight: 700;
     color: #fff;
-    background-color: rgb(226, 12, 12);
+    background-color: rgb(202, 7, 7);
     width: 120px;
     height: 40px;
     border-style: none;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+
+.btn-menos:hover{
+    background-color: rgb(221, 38, 38);
 }
 
 
 .btn-reset{
     font-weight: 700;
     color: #fff;
-    background-color: rgb(42, 16, 138);
+    background-color: rgb(33, 4, 136);
     width: 120px;
     height: 40px;
     border-style: none;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+
+.btn-reset:hover{
+    background-color: rgb(6, 6, 216);
 }
 
 .btn-mais{
     font-weight: 700;
     color: #fff;
-    background-color: rgb(10, 158, 30);
+    background-color: #157226;
     width: 120px;
     height: 40px;
     border-style: none;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+
+.btn-mais:hover{
+    background-color: #30bd48;
 }
