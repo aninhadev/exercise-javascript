@@ -1,0 +1,25 @@
+.content{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.operacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.operacoes button{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    text-align: center;
+    align-items: center;
+    border-style: none;
+    background-color: #504060;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
