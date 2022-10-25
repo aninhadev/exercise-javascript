@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <input type="text" placeholder="Qual país você vive?" name="pais" id="pais">
+        <input type="button" value="Enviar" onclick="enviar()">
+        <div id="res"></div>
+    </div>
+
+
+    <script>
+
+        function enviar() {
+            let pais = document.getElementById("pais")
+            let res = document.getElementById("res")
+            if (pais == 'Brasil') {
+                res.innerHTML = `Você é Brasileiro!`
+            } else {
+                res.innerHTML = `<p>Você é Estrangeiro! </p>`
+            }
+        }
+    </script>
+
+</body>
+
+</html>
