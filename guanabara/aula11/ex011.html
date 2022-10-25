@@ -11,9 +11,10 @@
 <body>
 
     <div class="content">
+        <h1>Verificando a Velocidade</h1>
 
-        <input type="text" placeholder="Qual país você vive?" name="pais" id="pais">
-        <input type="button" value="Enviar" onclick="enviar()">
+        <input type="text" placeholder="Qual pais você vive?" name="pais" id="pais">
+        <button type="submit" onclick="enviar()">Enviar</button>
         <div id="res"></div>
     </div>
 
@@ -21,13 +22,16 @@
     <script>
 
         function enviar() {
-            let pais = document.getElementById("pais")
+            let pais = document.getElementById("pais").value;
             let res = document.getElementById("res")
-            if (pais == 'Brasil') {
-                res.innerHTML = `Você é Brasileiro!`
+             res.innerHTML = `Se você vive em ${pais}`
+            if (pais == 'Brasil'){
+                res.innerHTML += `<p> Você é Brasileiro!</p>`
             } else {
-                res.innerHTML = `<p>Você é Estrangeiro! </p>`
+                res.innerHTML += `<p> Você é estrangeiro </p>`
             }
+
+
         }
     </script>
 
