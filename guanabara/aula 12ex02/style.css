@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(110, 110, 212);
+}
+
+h1 {
+  color: rgb(6, 6, 49);
+  font-size: 60px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+}
+
+footer {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+#agora{
+text-align: center;
+margin: 20px;
+}
+
+#img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
