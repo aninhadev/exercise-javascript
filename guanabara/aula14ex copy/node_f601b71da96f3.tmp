@@ -1,0 +1,20 @@
+
+
+
+
+// //function calcular() {
+//   let valorInicio = 1//document.getElementById("valinicio").value;
+//   let valorFim = 10 //document.getElementById("valfim").value;
+//   let valorPasso =  2 //document.getElementById("valpasse").value;
+
+//   for( valorInicio = 1 ; valorInicio >= 10 ;  valorInicio  + 2 ){
+//   console.log(`${valorInicio} `)
+//   }
+
+
+
+console.log('Vai começar')
+for(c = 1 ;c <= 10 ; c+ 2 ){
+    console.log(`${c} `)
+}
+console.log('FIM')
