@@ -1,0 +1,9 @@
+
+  let valorInicio = 1 
+  let valorFim = 10
+  let valorPasso = 2  
+
+  while(valorInicio <=valorFim ){
+    console.log("valorInicio")
+    valorInicio + valorPasso
+  }

@@ -1,32 +1,24 @@
 body {
-  background-color: rgb(110, 110, 212);
+  background-color: blue;
+  font:  normal 15pt Arial;
 }
 
-h1 {
-  color: rgb(6, 6, 49);
-  font-size: 60px;
+header {
+  color: aliceblue;
   text-align: center;
 }
 
-section {
-  padding: 20px;
-  width: 400px;
-  height: 300px;
-  margin: auto;
+section{
   background-color: aliceblue;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-footer {
+footer{
+  color: white;
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-}
-
-div {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 20px;
 }
