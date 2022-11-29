@@ -1,9 +1,0 @@
-
-  let a = 1 
-  let b = 10
-  let c = 2  
-
-  while( a <= c ){
-    console.log(`${a}`)
-    a + b
-  }
