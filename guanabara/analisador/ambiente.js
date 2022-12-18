@@ -8,8 +8,8 @@ function adicionar() {
   if (numero > 100 || numero == "" || numero <= 0) {
     alert(" ERRO!  Valor invalido! ");
   } else {
-    const node = document.createElement("option");
-    const textnode = document.createTextNode(`Adicionado o numero ${numero}`);
+    let node = document.createElement("option");
+    let textnode = document.createTextNode(`Adicionado o numero ${numero}`);
     node.appendChild(textnode);
     document.getElementById("tabela").appendChild(node);
   }
