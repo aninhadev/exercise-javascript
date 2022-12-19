@@ -1,5 +1,5 @@
-
-
+let array = []
+let addicionar = document.querySelector()
 
 function adicionar() {
     let n1 = document.getElementById("nume").value;
